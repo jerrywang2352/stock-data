@@ -12,7 +12,7 @@ class AnalyzeStock:
         portoflio (dataframe) -> dataframe of stock closing price
         self.empresas (dict) -> dictionary of stock closing price by date
         '''
-        self.api_key = "5e45f536a54b40410e7c1bc47e904dc1"
+        self.api_key = "f5198f455ac61a1e0fee7a88981ea9a2"
         self.stocks = stocks
         self.initial_weight = initial_weight
         self.days = days
@@ -208,3 +208,5 @@ class AnalyzeStock:
             writer.writerow(EV_EBIT)
  
 a = AnalyzeStock() 
+a.write_DCF_csv("exel.csv","EXEL")
+
