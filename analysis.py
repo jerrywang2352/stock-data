@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import csv
 class AnalyzeStock:   
-    def __init__(self, stocks=["AAPL"], initial_weight=1,days=100):
+    def __init__(self, stocks=["CRM"], initial_weight=1,days=100):
         '''
         api_key (string) -> key to financialmodelingprep
         stocks (list) -> list of stock tickers
